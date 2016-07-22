@@ -5,7 +5,7 @@ It defines a `trait` that can be used to wrap and uniform
 JSON responses to a reusable format.
 
 ## Install
-[composer]
+`composer require foothing/uniform-json-responses`
 
 ## Usage
 Simply add the trait to your Controller and have your controller
