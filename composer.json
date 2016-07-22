@@ -1,0 +1,26 @@
+{
+    "name": "foothing/uniform-json-responses",
+    "description": "A PHP trait to uniform http responses.",
+    "authors": [
+        {
+            "name": "brazorf",
+            "email": "fabrizio.ranieri@gmail.com"
+        }
+    ],
+	"license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+		"illuminate/http": "5.1.*"
+    },
+	"require-dev": {
+		"mockery/mockery": "0.9.*",
+		"phpunit/phpunit": "4.8.*",
+		"codeclimate/php-test-reporter": "dev-master"
+	},
+    "autoload": {
+        "psr-4": {
+            "Foothing\\Uniform\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
